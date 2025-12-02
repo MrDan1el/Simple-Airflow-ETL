@@ -24,7 +24,7 @@ start = EmptyOperator(
 
 start_python_script = BashOperator(
     task_id='start_python_script',
-    bash_command='python3 /scripts/run.py',
+    bash_command='python3 /src/run.py',
     dag=dag
 )
 
